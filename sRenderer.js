@@ -22,14 +22,14 @@
 
     ctx.lineWidth = 3
 
-    const halfW = width * 0.5
+    const halfW = width * 0.10
     const halfH = height * 0.5
 
-    const qx = width * 0.25
+    const qx = width * 0.50
     const qy = height * 0.25
 
 	frequencyArray.forEach((f, i) => {
-        const clockStep = Math.PI * 3 / 12
+        const clockStep = Math.PI * 7 / 12
         // const centerX = width / 2
         // const centerY = height / 2
 
@@ -50,7 +50,7 @@
         ctx.arc(x2, y2, radius, 0, clockStep)
         ctx.arc(x1, y2, radius, 0, clockStep)
 		// set stroke color
-		ctx.strokeStyle = `hsla(${colorStep * i}, 100%, 50%, 0.1)`
+		ctx.strokeStyle = `hsla(${colorStep * i}, 100%, 50%, 0.9)`
 		// stroke path
 		ctx.stroke()
 
