@@ -41,6 +41,4 @@ function render(frequencyArray, ctx, width, height) {
 		ctx.fill()
 	})
 }
-
-
 export default render

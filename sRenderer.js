@@ -33,8 +33,8 @@
         // const centerX = width / 2
         // const centerY = height / 2
 
-        const w = f / 255 * width
-        const h = f / 255 * height
+        const w = f / 225 * width
+        const h = f / 225 * height
 
         const x1 = qx - w * 0.5
         const y1 = halfH - h * 0.5
