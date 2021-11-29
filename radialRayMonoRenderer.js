@@ -1,4 +1,3 @@
-
 /** Renders radial lines from the center of the canvas
  * 
  * @param {UINT8 Array} frequencyArray 
@@ -8,7 +7,7 @@
  * @param {number} inner radius 
  */
 
-function render(frequencyArray, ctx, centerX, centerY, radius) {
+ function render(frequencyArray, ctx, centerX, centerY, radius) {
 	ctx.clearRect(0, 0, 300, 300)
 
 	ctx.beginPath()
