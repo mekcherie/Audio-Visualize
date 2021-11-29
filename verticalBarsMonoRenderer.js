@@ -11,7 +11,7 @@
  * @param {number} height 
  */
 
-function render(frequencyArray, ctx, count, width, height) {
+ function render(frequencyArray, ctx, count, width, height) {
 	// Get the number of values in the data array
 	const bars = frequencyArray.length
 	// Divide the canvas by the number of bars. 
